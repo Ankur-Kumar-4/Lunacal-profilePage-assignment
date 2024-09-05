@@ -1,0 +1,22 @@
+.add-button {
+  box-shadow: 5px 6px 6px 2px rgba(29, 29, 29, 0.749),
+    0px -0.5px 5px 1px rgba(218, 218, 218, 0.3),
+    0px 1px 2px 0px rgba(218, 218, 218, 0.3) inset;
+}
+.highlight-img:hover {
+  filter: contrast(200%) brightness(150%) !important;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+.nav-button {
+  box-shadow: 1px 1px 20px 1px rgba(140, 233, 239, 0.3);
+}
+.nav-button:focus {
+  background: linear-gradient(135deg, #84d9fb 0%, #1c1c1c 100%);
+}
+
+body{
+  background-color: #1c1c1c !important;
+}
